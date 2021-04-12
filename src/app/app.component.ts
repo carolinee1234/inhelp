@@ -8,7 +8,9 @@ export class AppComponent {
   public appPages = [
     { title: 'Cadastro', url: '/cadastro-profissionais', icon: 'person-add' },
     { title: 'perfil', url: '/perfil', icon: 'person' },
+    { title: 'Feedback', url: '/feedback', icon: 'chatbubbles' },
     { title: 'sair', url: '/login', icon: 'log-out' },
+    
   ];
   public labels = [];
   constructor() {}
