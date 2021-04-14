@@ -29,6 +29,22 @@ const routes: Routes = [
   },  {
     path: 'feedback',
     loadChildren: () => import('./feedback/feedback.module').then( m => m.FeedbackPageModule)
+  },
+  {
+    path: 'contratacoes-anteriores',
+    loadChildren: () => import('./contratacoes-anteriores/contratacoes-anteriores.module').then( m => m.ContratacoesAnterioresPageModule)
+  },
+  {
+    path: 'pesquisar-profissionais',
+    loadChildren: () => import('./pesquisar-profissionais/pesquisar-profissionais.module').then( m => m.PesquisarProfissionaisPageModule)
+  },
+  {
+    path: 'agenda',
+    loadChildren: () => import('./agenda/agenda.module').then( m => m.AgendaPageModule)
+  },
+  {
+    path: 'pagamento',
+    loadChildren: () => import('./pagamento/pagamento.module').then( m => m.PagamentoPageModule)
   }
 
 

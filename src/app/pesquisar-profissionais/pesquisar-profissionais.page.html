@@ -1,0 +1,162 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-title>pesquisar-profissionais</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content>
+
+  <ion-header>
+    <ion-toolbar color="success">
+      <ion-buttons slot="start">
+        <ion-menu-button></ion-menu-button>
+      </ion-buttons>
+      <ion-title>Pesquisar Profissionais</ion-title>
+    </ion-toolbar>
+  </ion-header>
+  
+  <ion-content>
+    <ion-searchbar></ion-searchbar>
+    <ion-card>
+      <ion-card-content>
+        <ion-list lines="full">
+  
+          <ion-item>
+            <ion-avatar slot="end" class="end-avatar">
+              <ion-icon name="location" class="icon-local"></ion-icon>
+              5KM
+            </ion-avatar>
+  
+            <ion-avatar slot="start">
+              <img
+                src="https://storage.alboom.ninja/sites/2851/albuns/377747/foto_perfil_profissional_medico_consultorio_hospital_albert_einstein-1.jpg?t=1548277552">
+            </ion-avatar>
+  
+            <ion-label>
+              <h2>Maria da Rocha</h2>
+              <h3>Serviços Gerais</h3>
+              <p>
+                <ion-icon name="star" class="icon-star"></ion-icon>
+                <ion-icon name="star" class="icon-star"></ion-icon>
+                <ion-icon name="star" class="icon-star"></ion-icon>
+                <ion-icon name="star" class="icon-star"></ion-icon>
+                <ion-icon name="star-outline" class="icon-star"></ion-icon>
+              </p>
+  
+            </ion-label>
+          </ion-item>
+  
+          <ion-item>
+            <ion-avatar slot="end" class="end-avatar">
+              <ion-icon name="location" class="icon-local"></ion-icon>
+              6KM
+            </ion-avatar>
+  
+            <ion-avatar slot="start">
+              <img
+                src="data:image/jpeg;base64,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">
+            </ion-avatar>
+  
+            <ion-label>
+              <h2>Lucia Maciel</h2>
+              <h3>Serviços Gerais</h3>
+              <p>
+                <ion-icon name="star" class="icon-star"></ion-icon>
+                <ion-icon name="star" class="icon-star"></ion-icon>
+                <ion-icon name="star" class="icon-star"></ion-icon>
+                <ion-icon name="star" class="icon-star"></ion-icon>
+                <ion-icon name="star-outline" class="icon-star"></ion-icon>
+              </p>
+  
+            </ion-label>
+          </ion-item>
+  
+          <ion-item>
+            <ion-avatar slot="end" class="end-avatar">
+              <ion-icon name="location" class="icon-local"></ion-icon>
+              8KM
+            </ion-avatar>
+  
+            <ion-avatar slot="start">
+              <img
+                src="https://i.pinimg.com/originals/9a/93/ed/9a93edc73bd74385f5dc87c27d1e9a2e.jpg">
+            </ion-avatar>
+  
+            <ion-label>
+              <h2>Marcio Gomes</h2>
+              <h3>Serviços Gerais</h3>
+              <p>
+                <ion-icon name="star" class="icon-star"></ion-icon>
+                <ion-icon name="star" class="icon-star"></ion-icon>
+                <ion-icon name="star" class="icon-star"></ion-icon>
+                <ion-icon name="star-outline" class="icon-star"></ion-icon>
+                <ion-icon name="star-outline" class="icon-star"></ion-icon>
+              </p>
+  
+            </ion-label>
+          </ion-item>
+  
+          <ion-item>
+            <ion-avatar slot="end" class="end-avatar">
+              <ion-icon name="location" class="icon-local"></ion-icon>
+              9KM
+            </ion-avatar>
+  
+            <ion-avatar slot="start">
+              <img
+                src="https://static.wixstatic.com/media/93516a_360b8f95a24042e2ad0a209ceb848882.jpg">
+            </ion-avatar>
+  
+            <ion-label>
+              <h2>Lais Souza</h2>
+              <h3>Móveis Planejados</h3>
+              <p>
+                <ion-icon name="star" class="icon-star"></ion-icon>
+                <ion-icon name="star" class="icon-star"></ion-icon>
+                <ion-icon name="star-outline" class="icon-star"></ion-icon>
+                <ion-icon name="star-outline" class="icon-star"></ion-icon>
+                <ion-icon name="star-outline" class="icon-star"></ion-icon>
+              </p>
+  
+            </ion-label>
+          </ion-item>
+  
+          <ion-item>
+            <ion-avatar slot="end" class="end-avatar">
+              <ion-icon name="location" class="icon-local"></ion-icon>
+              10KM
+            </ion-avatar>
+  
+            <ion-avatar slot="start">
+              <img
+                src="https://i.pinimg.com/736x/f0/38/69/f0386934f72ec77fdcaccd1158397146.jpg">
+            </ion-avatar>
+  
+            <ion-label>
+              <h2>Miguel Henrique</h2>
+              <h3>Serviços Gerais</h3>
+              <p>
+                <ion-icon name="star" class="icon-star"></ion-icon>
+                <ion-icon name="star" class="icon-star"></ion-icon>
+                <ion-icon name="star" class="icon-star"></ion-icon>
+                <ion-icon name="star-outline" class="icon-star"></ion-icon>
+                <ion-icon name="star-outline" class="icon-star"></ion-icon>
+              </p>
+            </ion-label>
+          </ion-item>
+          
+        </ion-list>
+        <ion-button shape="round" fill="outline" expand="full"  color="medium">Mais resultados</ion-button>
+      </ion-card-content>
+    </ion-card>
+  </ion-content>
+
+
+
+
+
+
+
+
+
+</ion-content>
