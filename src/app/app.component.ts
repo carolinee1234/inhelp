@@ -13,6 +13,7 @@ export class AppComponent {
     { title: 'Pesquisar Profissionais', url: '/pesquisar-profissionais', icon: 'search' },
     { title: 'Feedback', url: '/feedback', icon: 'chatbubbles' },
     { title: 'Pagamento', url: '/pagamento', icon: 'cash' },
+    { title: 'Chat', url: '/chat', icon: 'chatbubble' },
     { title: 'sair', url: '/login', icon: 'log-out' },
     
   ];

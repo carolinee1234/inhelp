@@ -1,0 +1,76 @@
+
+ion-head{
+    font-size: large;
+}
+ion-content{
+    --ion-background-color:#fff;
+}
+.div1{
+    
+    margin-top:30px;
+    border-radius: 10%;
+    margin-left: 5%;
+    background-color: rgb(255, 250, 250);
+    height:220px;
+    width: 490px;
+}
+.diasselecionados{  
+    font-size: large;
+    font-style: bold;
+    float: bottom;
+    margin-bottom: 5px;
+    width: 100%;
+    height: 30px;
+    border-color: rgb(40, 44, 41);
+    border-style: dashed;
+    background-color: #35b876;
+    border-radius: 20%;
+}
+.dias{  
+    font-size: large;
+    font-style: bold;
+    float: bottom;
+    margin-bottom: 5px;
+    width: 100%;
+    height: 30px;
+    background-color: #35b876;
+    border-radius: 20%;
+}
+.diasnulo{
+    float: bottom;
+    margin-bottom: 5px;
+    width: 100%;
+    height: 30px;
+    border-radius: 20%;
+    background-color: #a6a8a8;
+}
+ion-card{
+    font-size: large;
+    border-color: rgb(241, 241, 241);
+    --ion-background-color: #a6a8a8;
+    height: 198px;
+    width: 50px;
+    float: left;
+    text-align: center;
+    margin-left: 0px;
+    
+}
+ion-head{
+    background-color: #e2dfdf;
+    text-align: center;
+    font-weight: bold;
+    font-style: normal; 
+}
+.cardbottom{
+    text-align: center;
+    font-size: 2.0rem;
+    font-style: italic;
+    margin-top: 15px;
+    width: 100%;
+    height: 10%;
+    float: bottom;
+    background-color:rgb(245, 244, 244);
+    border-radius: 10%;
+    margin-bottom: 20px;
+}
+
