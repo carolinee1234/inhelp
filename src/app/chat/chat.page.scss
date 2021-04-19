@@ -1,6 +1,62 @@
+ion-content{
+    --ion-background-color:#8d9bc0;
+}
+
+ion-card{
+    --ion-background-color:rgb(255, 255, 255);
+    
+}
+
+.foto1{
+    
+    width: 400px;
+    height: 400px;
+    border-radius: 120px;
+    border: 2px solid #fff;
+}
+ion-head{
+    text-align: center;
+    background-color: rgba(0, 204, 255, 0.801);
+}
+ion-card{
+    height: 130px;
+}
 .card1{
-width: 40%;
-height: 100px;
-background-color: slategrey;
-margin-left: 56;
+    height: 80px;
+    font-size: 1.4rem;
+    width: 50%;
+}
+.card2{
+    height: 60px;
+    width: 50%; 
+    font-size: 1.5rem;
+    margin-left: 59%;
+    
+}
+.card3{
+    height: 85px;
+    width: 50%; 
+    font-size: 1.5rem;
+}
+.card4{
+    height: 60px;
+    width: 50%; 
+    font-size: 1.5rem;
+    margin-left: 59%;
+}
+.card5{
+    height: 40px;
+    font-size: 1.4rem;
+    width: 40%;
+}
+
+.divinferior{ 
+ height: 329px;
+ width: 115%;
+ background-color: rgb(255, 255, 255);
+}
+.cardinferior{
+    font-size: 30px;
+    margin-top: 100px;
+    height:50px;
 }

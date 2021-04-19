@@ -10,6 +10,7 @@
 </ion-header>
 
 <ion-content>
+  <ion-card>
 
 
   <ion-card-header>
@@ -20,23 +21,24 @@
 
 
 
-<ion-card>
-  <ion-card-content>
-    
-    <ion-checkbox color="primary"></ion-checkbox>
-    Débito
-  </ion-card-content>
-</ion-card>
+  <ion-list>
+    <ion-radio-group value="biff">
+      
+  
+      <ion-item>
+        <ion-label>Dinheiro</ion-label>
+        <ion-radio slot="start" value="biff"></ion-radio>
+      </ion-item>
+  
+      <ion-item>
+        <ion-label>Débito</ion-label>
+        <ion-radio slot="start" value="griff"></ion-radio>
+      </ion-item>
+  
+    </ion-radio-group>
+  </ion-list>
 
-<ion-card>
-  <ion-card-content>
-    
-    <ion-checkbox color="dark"></ion-checkbox>
-    Dinheiro
-  </ion-card-content>
-</ion-card>
 
-<ion-card>
   
   <ion-item>
    
@@ -71,17 +73,15 @@
   </ion-list>
   
 
-</ion-card>
-
-<ion-card>
   <ion-card-content>
     
     <ion-checkbox color="primary"></ion-checkbox>
     Eu li e concordo com os Termos e Condições.
   </ion-card-content>
+<ion-button expand="full">Finalizar</ion-button>
+
 </ion-card>
 
-<ion-button expand="full">Finalizar</ion-button>
 
 
 </ion-content>
